@@ -6,7 +6,7 @@ from http.client import InvalidURL
 from ssl import _create_unverified_context
 
 class AnchorParser(HTMLParser):
-    'Basic HTML parser that gathers a set of all href values in a webpage by targetting the anchor tag'
+    "Basic HTML parser that gathers a set of all href values in a webpage by targetting the anchor tag"
 
     def __init__(self, baseURL = ""):
         """Constructor for AnchorParser
